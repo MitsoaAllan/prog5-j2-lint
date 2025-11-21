@@ -3,11 +3,11 @@ class Wallet:
         self.color = color
         self.size = size
         self.amountVola = 0
-    def Open(self):
+    def open(self):
         if self.amountVola == 0:
             return "Wallet opened ,no money inside"
         return "Wallet opened, still poor"
-    def addVola(self,amount : float):
+    def add_vola(self,amount : float):
         self.amountVola+=amount
         return "You added "+amount+"Ariary"
     def withdrawVola(self,amount : float):
