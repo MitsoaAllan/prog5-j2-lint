@@ -20,4 +20,5 @@
          pip install -r requirements.txt
      - name: Analysing the code with pylint
        run: |
+         python check_language.py
          pylint Wallet.py
