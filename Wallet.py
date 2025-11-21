@@ -1,4 +1,4 @@
-class Wallet:
+class wallet:
     def __init__(self,color :str,size :int):
         self.color = color
         self.size = size
