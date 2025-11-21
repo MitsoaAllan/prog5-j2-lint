@@ -1,0 +1,12 @@
+[MAIN]
+
+variable-naming-style=camelCase
+function-naming-style=camelCase
+class-naming-style=PascalCase
+method-naming-style=camelCase
+argument-naming-style=camelCase
+attr-naming-style=camelCase
+module-naming-style=PascalCase
+
+[MESSAGES CONTROL]
+disable = C0116,C0114,C0115
